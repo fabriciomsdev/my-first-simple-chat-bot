@@ -16,7 +16,7 @@
 ```
 
 #### Arquitetura:
-    ![alt text](./architecture.jpg)
+    <img src="./architecture.jpg" width="100%" />
 
 ##### Componentes importantes e suas reponsabilidades:
     TerminalApplicationLayer: Responsável por fazer interface com o terminal para rodar a aplicação quando está no model terminal
