@@ -1,0 +1,4 @@
+nltk
+spacy
+selenium
+webdriver-manager
