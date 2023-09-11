@@ -5,7 +5,7 @@
     https://any.stone.com.br
 
 <h4> Em funcionamento </h4>
-    ![alt text](./evidence.png)
+    <img src="./evidence.pngg" width="100%" />
     OBS: existe um arquivo chamado test.txt onde há um dialogo de testes
 
 <h3>Para rodar:</h3>
@@ -44,11 +44,15 @@
     </ul>
 
 <h3>Técnicas utilizadas</h3>
-    - Named Entity Recognition (NER)
-    - Patternmatching
-    - Intents
+<ul>
+    <li>- Named Entity Recognition (NER)</li>
+    <li>- Patternmatching</li>
+    <li>- Intents</li>
+</ul>
 
 <h3>Observações</h3>
-    1 - Optei por fazer algumas na mão sem utilizar plataformas prontas, justamente para aprender mais sobre o tema.
-    2 - O modelo N.E.R. se encontra no ActionsManager para interpretação de medidas
-    3 - No LanguageUnderstandingModel se encontra as configurações dos modelo
+<ul>
+    <li>1 - Optei por fazer algumas na mão sem utilizar plataformas prontas, justamente para aprender mais sobre o tema.</li>
+    <li>2 - O modelo N.E.R. se encontra no ActionsManager para interpretação de medidas</li>
+    <li>3 - No LanguageUnderstandingModel se encontra as configurações dos modelo</li>
+</ul>
