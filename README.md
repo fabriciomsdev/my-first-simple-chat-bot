@@ -5,7 +5,7 @@
     https://any.stone.com.br
 
 <h4> Em funcionamento </h4>
-    <img src="./evidence.pngg" width="100%" />
+    <img src="./evidence.png" width="100%" />
     OBS: existe um arquivo chamado test.txt onde há um dialogo de testes
 
 <h3>Para rodar:</h3>
