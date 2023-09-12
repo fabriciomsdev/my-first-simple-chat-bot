@@ -1,4 +1,4 @@
-<h1>PUCPR - Agentes conversacionais - Chat bot com python:</h1>
+<h1>PUCPR - Inteligência Artificial Aplicada - Agentes conversacionais - Chat bot com python:</h1>
 
 <h3>Objetivo:</h3>
     Este agente conversacional fechado, auxilia o cliente a pedir uma entrega de um pacote online usando um dos projetos que participo:
@@ -12,7 +12,8 @@
 ```sh
     python3 -m venv venv &&
     . ./venv/bin/activate &&
-    pip install -r requirements.txt
+    pip install -r requirements.txt && 
+    python3 main.py
 ```
 
 <h3>Arquitetura:</h3>
