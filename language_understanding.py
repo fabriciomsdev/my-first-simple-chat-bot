@@ -148,7 +148,6 @@ class LanguageUnderstandingModel:
 
     def set_intent_db(self, intent_db):
         self.intent_db = intent_db
-        print(self.intent_db)
 
     def undestand(self, message: str):
         matched_intent = None

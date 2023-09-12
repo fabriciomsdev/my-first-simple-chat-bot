@@ -9,11 +9,6 @@ from flow_orchestrator import FlowOrchestrator
 from flow_repository import FlowRepository
 from language_understanding import LanguageUnderstandingModel
 
-
-terminal_application_layer = TerminalApplicationLayer()
-whatsapp_application_layer = WhatsappApplicationLayer()
-
-
 class ChatBot():
     def __init__(self, application_layer: WhatsappApplicationLayer = None):
         self.language_model = LanguageUnderstandingModel()
@@ -68,4 +63,11 @@ class ChatBot():
         return self
     
 
-ChatBot(whatsapp_application_layer).setup().run()
+if (AppConfig.ui_mode == 'terminal'):
+    terminal_application_layer = TerminalApplicationLayer()
+    agent = ChatBot(terminal_application_layer)
+else:
+    whatsapp_application_layer = WhatsappApplicationLayer()
+    agent = ChatBot(whatsapp_application_layer)
+
+agent.setup().run()

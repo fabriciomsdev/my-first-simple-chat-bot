@@ -55,4 +55,5 @@
     <li>1 - Optei por fazer algumas na mão sem utilizar plataformas prontas, justamente para aprender mais sobre o tema.</li>
     <li>2 - O modelo N.E.R. se encontra no ActionsManager para interpretação de medidas</li>
     <li>3 - No LanguageUnderstandingModel se encontra as configurações dos modelo</li>
+    <li>4 - Para rodar com o Whatsapp é só mudar no AppConfig ou .env a variável UI_MODE para 'whatsapp'</li>
 </ul>
