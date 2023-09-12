@@ -9,7 +9,8 @@
     OBS: existe um arquivo chamado test.txt onde há um dialogo de testes
 
 <h3>Para rodar:</h3>
-```
+
+```sh
     python3 -m venv venv &&
     . ./venv/bin/activate &&
     pip install -r requirements.txt && 
